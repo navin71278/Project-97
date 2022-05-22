@@ -10,6 +10,7 @@ while chances < 5:
   chances+=1   
   if guess == number:
     print("Congratulations You won!!!")
+    break
   elif guess < number:
     print("Your guess was too low!Try the number higher than",guess)
   else:
